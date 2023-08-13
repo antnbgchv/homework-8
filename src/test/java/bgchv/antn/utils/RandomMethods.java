@@ -72,6 +72,11 @@ public class RandomMethods {
         return new Faker().options().option(hobbies);
     }
 
+    public static String getRandomPic() {
+        String[] pics = {"firstPic.jpg", "secondPic.jpg", "thirdPic.jpg"};
+        return new Faker().options().option(pics);
+    }
+
     public static String getRandomAddress() {
         return fakerEn.address().fullAddress();
     }

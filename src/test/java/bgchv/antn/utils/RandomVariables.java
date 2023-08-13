@@ -14,7 +14,7 @@ public class RandomVariables {
             dayValue = getRandomDay(),
             subjectValue = getRandomSubject(),
             hobbyValue = getRandomHobie(),
-            pictureNameValue = "coolPic.jpg",
+            pictureNameValue = getRandomPic(),
             addressValue = getRandomAddress(),
             stateValue = getRandomState(),
             cityValue = getRandomCity(stateValue);
